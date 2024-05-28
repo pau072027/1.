@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Canciones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        main {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        .song {
+            background-color: white;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Página de Canciones</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#mis-canciones">Mis Canciones</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Bienvenido a mi página personal donde comparto las letras de mis canciones.</p>
+        </section>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Escribe aquí una breve descripción sobre ti.</p>
+        </section>
+        <section id="mis-canciones">
+            <h2>Mis Canciones</h2>
+            <div class="song">
+                <h3>Canción 1</h3>
+                <p>Letra de la canción 1...</p>
+            </div>
+            <div class="song">
+                <h3>Canción 2</h3>
+                <p>Letra de la canción 2...</p>
+            </div>
+            <div class="song">
+                <h3>Canción 3</h3>
+                <p>Letra de la canción 3...</p>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Información de contacto aquí.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Página de Canciones</p>
+    </footer>
+</body>
+</html>
